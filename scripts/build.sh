@@ -759,7 +759,7 @@ else
     elif [[ "$ROOT_SOL" = "kernelsu" ]]; then
         sed -i -e 's@wsa://com.topjohnwu.magisk@https://github.com/MustardChef/WSABuilds/blob/master/Guides/KernelSU.md@g' ../installer/Install.ps1
     elif [[ "$MAGISK_VER" = "delta" ]]; then
-        sed -i -e 's@com.topjohnwu.magisk@io.github.huskydg.magisk@g' ../installer/Install.ps1
+        sed -i -e 's@com.topjohnwu.magisk@io.github.huskydg.magisk@https://github.com/MustardChef/WSABuilds/blob/master/Guides/MagiskDelta.md@g' ../installer/Install.ps1
     elif [[ "$MAGISK_VER" = "alpha" ]]; then
         sed -i -e 's@com.topjohnwu.magisk@io.github.vvb2060.magisk@g' ../installer/Install.ps1
     fi
